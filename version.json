@@ -1,19 +1,19 @@
 {
+  "min_node_version": "7.0.2",
+  "release_notes": "Aurora v7.0.2 release.",
   "release_date": "2026-03-31",
-  "version": "7.0.0",
-  "min_node_version": "7.0.0",
+  "build": "20260331",
+  "node": {
+    "restart_after_update": true,
+    "update_check_interval_minutes": 60,
+    "auto_update": true
+  },
+  "version": "7.0.2",
   "channel": "stable",
   "download": {
-    "server_linux_x64": "https://github.com/maj-adm/Aurora-Release/releases/download/v7.0.0/aurora-server-linux-x64-v7.0.0.zip",
-    "server_win_x64": "https://github.com/maj-adm/Aurora-Release/releases/download/v7.0.0/aurora-server-win-x64-v7.0.0.zip",
-    "client_linux_x64": "https://github.com/maj-adm/Aurora-Release/releases/download/v7.0.0/aurora-client-linux-x64-v7.0.0.zip",
-    "client_win_x64": "https://github.com/maj-adm/Aurora-Release/releases/download/v7.0.0/aurora-client-win-x64-v7.0.0.zip"
-  },
-  "node": {
-    "auto_update": true,
-    "update_check_interval_minutes": 60,
-    "restart_after_update": true
-  },
-  "build": "20260331",
-  "release_notes": "Aurora v7.0.0 release."
+    "client_win_x64": "https://github.com/maj-adm/Aurora-Release/releases/download/v7.0.2/aurora-client-win-x64-v7.0.2.zip",
+    "server_win_x64": "https://github.com/maj-adm/Aurora-Release/releases/download/v7.0.2/aurora-server-win-x64-v7.0.2.zip",
+    "client_linux_x64": "https://github.com/maj-adm/Aurora-Release/releases/download/v7.0.2/aurora-client-linux-x64-v7.0.2.zip",
+    "server_linux_x64": "https://github.com/maj-adm/Aurora-Release/releases/download/v7.0.2/aurora-server-linux-x64-v7.0.2.zip"
+  }
 }
