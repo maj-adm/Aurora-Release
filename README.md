@@ -47,10 +47,15 @@ Hand-written neural networks, local voice (Piper TTS + Whisper STT), continuous 
 
 1. Download `aurora-server-win-x64-v7.0.0.zip` (or linux build)
 2. Extract to a folder of your choice (e.g. `C:\Aurora`)
-3. Place voice model files:
-   - `piper/piper.exe`
-   - `voices/en_US-kathleen-low.onnx` + `.json`
-   - `models/ggml-small.en.bin` (Whisper STT)
+3. Place voice model files in the `voice/` folder:
+   ```
+   voice/
+     piper.exe                        ← from github.com/rhasspy/piper/releases
+     ggml-small.en.bin                ← from huggingface.co/ggerganov/whisper.cpp
+     voices/
+       en_US-kathleen-low.onnx        ← from huggingface.co/rhasspy/piper-voices
+       en_US-kathleen-low.onnx.json
+   ```
 4. Run `Aurora.app.exe`
 
 ## Installation — Client (Dashboard)
