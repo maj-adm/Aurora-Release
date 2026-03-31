@@ -1,20 +1,19 @@
 {
-  "version": "7.0.0",
-  "build": "20260331",
-  "channel": "stable",
-  "min_node_version": "7.0.0",
   "release_date": "2026-03-31",
-  "release_notes": "Initial public release of Aurora V7. Transformer LM (7M params, 32K vocab), 226-intent CRNN classifier, multilingual support, reasoning engine with comfort/physical state inference, full REST API, Avalonia dashboard, and distributed node auto-update.",
+  "version": "7.0.0",
+  "min_node_version": "7.0.0",
+  "channel": "stable",
   "download": {
-    "server_win_x64":   "https://github.com/maj-adm/aurora-release/releases/download/v7.0.0/aurora-server-win-x64-v7.0.0.zip",
-    "server_linux_x64": "https://github.com/maj-adm/aurora-release/releases/download/v7.0.0/aurora-server-linux-x64-v7.0.0.zip",
-    "client_win_x64":   "https://github.com/maj-adm/aurora-release/releases/download/v7.0.0/aurora-client-win-x64-v7.0.0.zip",
-    "client_linux_x64": "https://github.com/maj-adm/aurora-release/releases/download/v7.0.0/aurora-client-linux-x64-v7.0.0.zip",
-    "checksum_sha256":  ""
+    "server_linux_x64": "https://github.com/maj-adm/Aurora-Release/releases/download/v7.0.0/aurora-server-linux-x64-v7.0.0.zip",
+    "server_win_x64": "https://github.com/maj-adm/Aurora-Release/releases/download/v7.0.0/aurora-server-win-x64-v7.0.0.zip",
+    "client_linux_x64": "https://github.com/maj-adm/Aurora-Release/releases/download/v7.0.0/aurora-client-linux-x64-v7.0.0.zip",
+    "client_win_x64": "https://github.com/maj-adm/Aurora-Release/releases/download/v7.0.0/aurora-client-win-x64-v7.0.0.zip"
   },
   "node": {
     "auto_update": true,
-    "restart_after_update": true,
-    "update_check_interval_minutes": 60
-  }
+    "update_check_interval_minutes": 60,
+    "restart_after_update": true
+  },
+  "build": "20260331",
+  "release_notes": "Aurora v7.0.0 release."
 }
