@@ -1,0 +1,17 @@
+{
+  "version": "7.0.0",
+  "build": "20260331",
+  "channel": "stable",
+  "min_node_version": "7.0.0",
+  "release_date": "2026-03-31",
+  "release_notes": "Initial release of Aurora V7.",
+  "download": {
+    "windows_x64": "https://github.com/maj-adm/aurora-release/releases/download/v7.0.0/aurora-v7.0.0-win-x64.zip",
+    "checksum_sha256": ""
+  },
+  "node": {
+    "auto_update": true,
+    "restart_after_update": true,
+    "update_check_interval_minutes": 60
+  }
+}
